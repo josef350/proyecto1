@@ -1,0 +1,111 @@
+
+     nav {
+      width:100%;
+      text-align:center;
+      background-color:#00000091;
+        }
+      nav a {
+       display:inline-block;
+       margin: 10px;
+       padding: 8px 20px;
+       background-color: #00063B;
+       color:#FFFFFF;
+       font-family: ARIAL;
+       text-decoration: none;
+       font-size:1.5em;
+       border-radius: 10px;
+       transition:background-color 0.4s, color 0.4s;
+            }
+      nav a:hover { 
+       color:#000324; /*color al pasar el cursor*/
+       font-family: ARIAL;
+       background-color:#FFFFFF;
+                  }
+      body {
+       background-image:url(imagens/fondofut2.jpg);
+       background-size: cover;
+           }
+      section {
+       background-color:#000324;
+       color:#FFFFFF;
+       text-align:center;
+       text-align:justify;
+       width:50%;
+       margin: 60px auto;
+       margin-top: 10px;
+       padding: 5x;
+       border-radius: 1px;
+              }  
+      header {
+       color:#FFFFFF;   
+       background-color: none;
+       text-align:center;
+       font-family: roboto;
+             }
+      .logo h1 {
+       font-size: 5em;
+       font-family: VERDANA;
+     
+               }
+      .logo p {
+       font-size: 1.5em;
+              }
+.container-form {
+    width: 100%;
+    max-width: 1100px;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+}
+.container-form h2{
+    margin-bottom: 15px;
+    font-size: 35px;
+    color: white;
+}
+.container-form p {
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+.container-form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    width: 100%;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.container-form form .campo, textarea {
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;   
+}
+
+.container-form form textarea {
+     max-width: 530px;
+     min-width: 530px;
+     min-height: 140px;
+     max-height: 150px;
+}
+.container-form .btn-enviar {
+     padding: 15px;
+     font-size: 16px;
+     border: none;
+     background: orange;
+     color: white;
+     border-radius: 3px;
+     cursor: pointer;
+     transition: all 300ms ease;
+}
+.container-form .btn-enviar:hover{
+     color: white;
+     background: #f34f03;
+}
